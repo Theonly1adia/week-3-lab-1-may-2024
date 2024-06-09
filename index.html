@@ -14,22 +14,29 @@
       }
 
       /* TODO: add styles for header  */
+      header { background-color: lightpink; 
+
+
+      }
       
       /* TODO: add styles for footer  */
-
+      footer {
+        font-size: 30px;
+      }
       .paragraph-1 {
-        background-color: pink;
+        background-color: lightsalmon;
+        margin: 50px; padding-top: 50px;
       }
     </style>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1 style="text-decoration: underline">I like cats!
+      <h1 style="text-decoration: underline wavy"; >I like cats!
       </h1>
     </header>
     <main>
-      <p class="paragraph-1" style="">
+      <p class="paragraph-1" style="text-decoration-line: overline underline">
         <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -37,7 +44,7 @@
         aliquam etiam.    
       </p>
     
-      <p style="">
+      <p style="font-family: Verdana;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -49,7 +56,7 @@
         erat nam at lectus urna duis.
       </p>
     
-      <p style="">
+      <p style="color:blue; text-align:center;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -61,7 +68,8 @@
         erat nam at lectus urna duis.
       </p>
     
-      <table>
+      <table style=" border: 3px solid;
+        border-radius: 10px">
         <tr>
           <th style="">item</th>
           <th style="">price</th>
@@ -77,8 +85,16 @@
           <td style="">$1.99</td>
         </tr>
       </table>
-    
-      <button style="">Buy Now!</button>
+      <br>
+      <button style="background-color: aqua;">Buy Now!</button>
+      
+      <ul>
+        <li style="color:orangered">Oranges</li>
+        <li style="color:red">Apples</li>
+        <li style="color:green">Pears</li>
+        <li style="color:crimson">Peaches</li>
+      </ul>
+      
     </main>
   
     <nav>
@@ -88,6 +104,7 @@
     </nav>
     
     <footer>
+      Thanks for visiting!!!
     </footer>
 
     <script src="./script.js"></script>
